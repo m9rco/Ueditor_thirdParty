@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UE By QiNiu</title>
+<script>// document.domain = 'locahost';//为了兼容全版的UEditor上传那里是一个IFrame，而连接是引入的static域外的，这样统一域，他们的js就可以交互了 </script>
+</head>
+<body>
+	<div class="editorDiv" style="display: block;">
+		<script id="editor" type="text/plain" style="width:750px;height:400px;"></script>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="conf/ueditor.config.js"></script>
+<script type="text/javascript" src="Uedit/ueditor.all.min.js"></script>
+<script type="text/javascript">
+	UE.getEditor('editor');
+</script>

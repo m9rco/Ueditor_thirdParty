@@ -1,0 +1,13 @@
+{
+ "require": {
+ },
+ "autoload": {
+        "classmap": [
+            "Qiniu",
+            "OSS",
+            "library",
+            "controllers",
+            "controllersref"
+        ]
+    }
+}
